@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED 1
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
-# Set the working directory in the container file .
+# Set the workingiii directory in the container file .
 WORKDIR /app
 
 # Copy the requirements file and install dependencies
